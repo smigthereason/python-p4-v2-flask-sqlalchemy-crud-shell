@@ -1,6 +1,6 @@
 # server/app.py
 
-from flask import Flask
+from flask import Flask # type: ignore
 from flask_migrate import Migrate
 
 from models import db
